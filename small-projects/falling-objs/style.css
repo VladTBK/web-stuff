@@ -1,33 +1,14 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#container{
-    height:100vw;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+            height: 100%;
+            width:100%;
+            margin: 0;
+            display: flex;
 }
 .box{
-    width: 100px;
-    height: 100px;
-    position: relative;
+    width: 10px;
+    height: 10px;
+    position: absolute;
     margin:5px;
     display:inline-block;
 }
 
-.red{
-    background-color:#ef476f
-}
-.blue{
-    background-color:#118ab2
-}
-.green{
-    background-color:#06d6a0
-}
-.yellow{
-    background-color: #ffd166;
-}
