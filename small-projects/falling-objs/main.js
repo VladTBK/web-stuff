@@ -10,9 +10,9 @@ let height = null
 class Box {
     constructor(bg_color, x_pos) {
         this.element = document.createElement("div")
+        this.element.innerHTML = `<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">            <circle cx="5" cy="5" r="5" fill=${bg_color} />        </svg>`
         this.element.className = "box"
         this.element.style.left += x_pos + "px"
-        this.element.style.backgroundColor = bg_color
         document.body.appendChild(this.element)
         this.animation()
     }
@@ -44,7 +44,6 @@ const get_random_color = () => {
 const main = () => {
     const random_color = get_random_color()
     const random_x = Math.floor(Math.random() * width)
-    console.log(width)
     new Box(random_color, random_x)
 }
 document.addEventListener('DOMContentLoaded', function() {

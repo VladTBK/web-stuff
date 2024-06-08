@@ -5,10 +5,7 @@ html, body {
             display: flex;
 }
 .box{
-    width: 10px;
-    height: 10px;
     position: absolute;
-    margin:5px;
     display:inline-block;
 }
 
