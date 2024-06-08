@@ -1,0 +1,16 @@
+header {
+    background-color:purple;
+}
+.header-text{
+    color: white;
+    text-align:center;
+}
+
+.article-title{
+    font-family: arial;
+}
+
+.article-data{
+    color:grey;
+    font-style: italic;
+}
